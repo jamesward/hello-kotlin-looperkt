@@ -3,7 +3,6 @@ plugins {
 }
 
 repositories {
-    maven("https://oss.sonatype.org/content/groups/staging")
     mavenCentral()
 }
 
@@ -18,7 +17,7 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                implementation("com.jamesward:looperkt:0.0.3")
+                implementation("com.jamesward:looperkt:0.0.4")
             }
         }
     }
